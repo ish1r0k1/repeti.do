@@ -116,5 +116,8 @@
       }
     }
   },
-  "defaultProject": "repetido"
+  "defaultProject": "repetido",
+  "cli": {
+    "defaultCollection": "@ngxs/schematics"
+  }
 }

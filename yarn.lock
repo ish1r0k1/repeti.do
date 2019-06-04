@@ -90,12 +90,29 @@
     rxjs "6.2.2"
     source-map "0.5.7"
 
+"@angular-devkit/core@7.3.9", "@angular-devkit/core@^7.1.0":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.3.9.tgz#bef2aaa0be7219c546fb99ea0ba9dd3a6dcd288a"
+  dependencies:
+    ajv "6.9.1"
+    chokidar "2.0.4"
+    fast-json-stable-stringify "2.0.0"
+    rxjs "6.3.3"
+    source-map "0.7.3"
+
 "@angular-devkit/schematics@0.8.9":
   version "0.8.9"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.8.9.tgz#f6551075d234c30787ba6200cfd4d959170fd843"
   dependencies:
     "@angular-devkit/core" "0.8.9"
     rxjs "6.2.2"
+
+"@angular-devkit/schematics@^7.1.0":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.3.9.tgz#4fe7bc878b116b157a3adf00583c28c951215877"
+  dependencies:
+    "@angular-devkit/core" "7.3.9"
+    rxjs "6.3.3"
 
 "@angular/animations@^6.1.0":
   version "6.1.10"
@@ -290,6 +307,32 @@
     rxjs "6.2.2"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
+
+"@ngxs/devtools-plugin@^3.3.2":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@ngxs/devtools-plugin/-/devtools-plugin-3.4.3.tgz#437e8599d24babee2c08cdd93a789585248a1a5c"
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/logger-plugin@^3.3.2":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@ngxs/logger-plugin/-/logger-plugin-3.4.3.tgz#1b001c563ddc5879a9d523f1b3c456dbdd6996ac"
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/schematics@^0.0.1-alpha.5":
+  version "0.0.1-alpha.5"
+  resolved "https://registry.yarnpkg.com/@ngxs/schematics/-/schematics-0.0.1-alpha.5.tgz#014bd731e28a30f63065e8dadec2c02ef320df46"
+  dependencies:
+    "@angular-devkit/core" "^7.1.0"
+    "@angular-devkit/schematics" "^7.1.0"
+    typescript "^3.2.1"
+
+"@ngxs/store@^3.3.2":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@ngxs/store/-/store-3.4.3.tgz#cf2f3b95e6be814742754c7f24e53b2b6392bb47"
+  dependencies:
+    tslib "^1.9.0"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -554,6 +597,15 @@ ajv@6.4.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
     uri-js "^3.0.2"
+
+ajv@6.9.1:
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.9.1.tgz#a4d3683d74abc5670e75f0b16520f70a20ea8dc1"
+  dependencies:
+    fast-deep-equal "^2.0.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
 
 ajv@^5.0.0:
   version "5.5.2"
@@ -2403,7 +2455,7 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
 
-fast-json-stable-stringify@^2.0.0:
+fast-json-stable-stringify@2.0.0, fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
 
@@ -5644,6 +5696,12 @@ rxjs@6.2.2, rxjs@~6.2.0:
   dependencies:
     tslib "^1.9.0"
 
+rxjs@6.3.3:
+  version "6.3.3"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.3.3.tgz#3c6a7fa420e844a81390fb1158a9ec614f4bad55"
+  dependencies:
+    tslib "^1.9.0"
+
 rxjs@^6.3.3:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.2.tgz#2e35ce815cd46d84d02a209fb4e5921e051dbec7"
@@ -6072,6 +6130,10 @@ source-map@0.1.x:
 source-map@0.5.7, source-map@^0.5.0, source-map@^0.5.6, source-map@^0.5.7:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
+
+source-map@0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
 
 source-map@^0.4.2, source-map@~0.4.1:
   version "0.4.4"
@@ -6587,6 +6649,10 @@ typedarray@^0.0.6:
 typescript@2.9.2, "typescript@>=2.6.2 <2.10", typescript@~2.9.2:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
+
+typescript@^3.2.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
 
 uglify-es@^3.3.4:
   version "3.3.9"
